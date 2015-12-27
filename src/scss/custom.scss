@@ -1,0 +1,102 @@
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.text-strong {
+    font-weight: bolder;
+}
+
+.text-shadow {
+    text-shadow: 0 2px 1px rgba(0, 0, 0, .33);
+}
+
+.p-t-15 {
+    padding-top: 1.5rem;
+}
+
+.p-b-15 {
+    padding-bottom: 1.5rem;
+}
+
+.m-v-50 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.p-v-50 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.table {
+    font-size: $font-size-base;
+}
+
+.table-striped {
+    & > tbody > tr:nth-of-type(even) {
+        background-color: #ddd;
+    }
+    & > tbody > tr:nth-of-type(odd) {
+        background-color: transparent;
+    }
+}
+
+.table-noborder {
+    thead > tr > th,
+    thead > tr > td,
+    tbody > tr > th,
+    tbody > tr > td,
+    tfoot > tr > th,
+    tfoot > tr > td {
+        vertical-align: middle;
+        border-top: none!important;
+    }
+}
+
+.qty-input {
+    float: left;
+    width: 40px;
+    height: 34px;
+    margin: 1px 0;
+    border-color: #999;
+    text-align: right;
+}
+
+.qty-group {
+    float: left;
+    width: 15px;
+}
+
+.qty-btn {
+    cursor: pointer;
+    color: #fff;
+    margin: 1px 2px;
+    width: 15px;
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+    background-color: #999;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 900;
+
+    &:hover {
+        background-color: #03f;
+    }
+}
+
+.btn {
+    font-family: Helvetica;
+}
+
+.btn-primary:hover {
+    border-color: #33f;
+    background-color: #33f;
+}
+
+.icon-trash:hover {
+    background-position: 0px -48px;
+}

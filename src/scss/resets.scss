@@ -1,0 +1,32 @@
+body, input, textarea, select, button {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: 'liga', 'kern';
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background: linear-gradient(#fff, #ddd);
+}
+
+body {
+    padding-bottom: 40px;
+    background: transparent;
+}
+
+header {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #666;
+}

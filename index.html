@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>ES6 Cart Demo</title>
+    <link rel="stylesheet" type="text/css" href="./dist/sprite.css">
+    <link rel="stylesheet" type="text/css" href="./dist/main.css">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+</head>
+<body>
+
+    <article class="container">
+
+        <header>
+            <div class="icon-logo"></div>
+        </header>
+
+        <section class="m-v-50">
+            <h1 class="text-strong text-shadow">Your basket</h1>
+            <p>
+                Items you have added to your basket are shown below.<br/>
+                Adjust the quantities or remove items before continuing your purchase.
+            </p>
+        </section>
+
+        <section class="table-responsive m-v-50">
+            <table id="products-container" class="table table-striped table-noborder no-select">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Cost</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot></tfoot>
+            </table>
+        </section>
+
+    </article>
+
+    <footer>
+        <div class="container">
+            <strong>&copy; Company Name</strong>
+            <span>Some slogan text here</span>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./dist/bundle.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 ## ES6 Cart Demo
 
-![preview](https://githubcontent.com)
+![preview](https://raw.githubusercontent.com/18601673727/es6-cart-demo/master/preview.png)
 
 ### Description
 This is just a very simple boilerplate for building web applications with a cart demo.
